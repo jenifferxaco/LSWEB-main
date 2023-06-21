@@ -270,6 +270,7 @@ footer{
   font-family: 'Bodoni Moda', serif;
   opacity: 50%;
   font-size: 60px;
+  
 }
 h2{
   text-align: center;
@@ -286,78 +287,67 @@ h2{
   color: #36454F;
   margin-right: 30px;
   text-shadow: 3px 3px white;
-}
-/* my work */
-.flex-container1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-    justify-content: center;
-    margin: 200px;
-    padding: 20px;
-}
-.flex-container2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-    justify-content: center;
-    margin: 200px;
-    padding: 20px;
+  font-size:40px;
 }
 
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-    }
-  }
 
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-container1 {
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-container2 {
-    flex-direction: column;
-  }
-}
 .bday {
-  height: 190px;
-
+  width: 190px;
+  height:auto;
 }
 .blue {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .purple {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .bd50 {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .pic1 {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .din1 {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .ily {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .pic2 {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .rh2 {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .rh1 {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 .xmas {
-  height: 190px;
+  width: 190px;
+  height:auto;
 }
 
+.b1{
+  max-width:100%;
+  height:auto;
+}
+
+.layout {
+  width: 100%;
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
